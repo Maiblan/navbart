@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 190px;
+    height: 100px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+span{
+    color: white;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 23px;
+    background-color: rgb(110, 107, 107);
+    margin-right: 5px;
+    font-style: black;
+}
+
+i {
+    color: black;
+    
+}
+
+.links  {
+    color: yellow;
+    text-decoration: none;
+    padding: 0 -130;
+}
+
+img{
+    height: 190px;
+
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+ul {
+    padding: 1px 190px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    width: auto;
+    padding: 5px 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+li:nth-child(1) a {
+    color: red;
+}
+
+li:nth-child(2) a {
+    color: blue;
+}
+
+li:nth-child(3) a {
+    color: green;
+}
+
+li:nth-child(4) a {
+    color: orange;
+}
+
+li:nth-child(5) a {
+    color: magenta;
+}
+
+li:nth-child(6) a {
+    color: yellow;
+}
+
+li:nth-child(7) a {
+    color: lime;
+}
